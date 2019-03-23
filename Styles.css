@@ -1,5 +1,13 @@
 body {
-  color:#f98440;
-  font-family: 'Allan';
-  font-size: 150%
+  color:#004d1a;
+  font-family: 'Cantora One';
+  font-size: 20px
+}
+header {
+  text-align: center;
+  margin-top: 300px;
+}
+
+h1 {
+  font-size: 70px;
 }
