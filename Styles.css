@@ -1,13 +1,58 @@
 body {
-  color:#004d1a;
+  color:#00000;
   font-family: 'Cantora One';
-  font-size: 20px
+  font-size: 20px;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("backgroundimages.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 header {
   text-align: center;
-  margin-top: 300px;
+  margin-top: 125px;
 }
 
 h1 {
   font-size: 70px;
+}
+
+h2 {
+  padding-bottom: 7rem;
+}
+
+.btn-primary {
+  background-color: #64a19d;
+  border: 0;
+  padding: 1.25rem 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+#mainNav {
+  min-height: 56px;
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
 }
