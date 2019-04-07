@@ -79,9 +79,9 @@ h2 {
 h3 {
 	font-weight: bold;
 	padding-top: 20px;
-	padding-right: 30px;
+	/* padding-right: 30px; */
 	padding-bottom: 50px;
-	padding-left: 80px;
+	/* padding-left: 80px; */
 }
 
 p {
@@ -102,7 +102,7 @@ p {
   padding-top: 20px;
 	padding-right: 30px;
 	padding-bottom: 70px;
-	padding-left: 80px;
+	padding-left: 70px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;

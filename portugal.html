@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!-- <html lang = "en">
+  <head>
+    <title>TasteBuds</title> -->
+    <!--next tag is to call the stylesheet on bootstrap that is giving us the layout for our website-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!--next tag is for the website to be responsive for mobile devices aswell, taken from bootstrap website-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Cantora One' rel='stylesheet'>
+  </head>
+
+  <body> -->
+    <!--navigation-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <img class="navbar-brand js-scroll-trigger" src="cookingpot.jpg" alt="a cooking pot" width="75px">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#recipe">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#connect">Connect with us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="introduction">
+      <h1> CodeKitchen</h1>
+      <br>
+      <h2> Creating an immersive experience between language and food</h2>
+      <a href="#recipe" class="btn btn-primary js-scroll-trigger">Lets cook!</a>
+    </header>
+
+    <main>
+
+    </main>
+  </body>
+
+</html> -->
+<html lang = "en">
+  <head>
+    <title>Portugal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="landingstyle.css">
+	<!-- jQuery library -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled Bootstrap JavaScript -->
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	</head>
+
+    <body>
+
+      <!--Navbar with dropdown-->
+      <nav class="navbar navbar-default fixed-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- menu items -->
+                <a class="navbar-brand" href="index.html"><img border="0" alt="home" src="images/cookingpot.jpg" width="100" height="100"></a>
+                <a class="navbar-brand" href="#ingredients-section">Ingredients</a>
+                <a class="navbar-brand" href="#method-section">Method</a>
+                <a class="navbar-brand" href="all-recipes.html">All recipes</a>
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">Recipes by country</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="shepherds-pie.html">England</a>
+                    <a href="switzerland.html">Switzerland</a>
+                    <a href="denmark.html">Denmark</a>
+                    <a href="india.html">India</a>
+                  </div>
+                </div>
+
+            </div>
+              <!-- social media icons -->
+              <ul class="nav navbar-nav navbar-right social">
+                  <li><a href="https://twitter.com/passportkitchen"><i class="fa fa-lg fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/Passport-to-my-kitchen-1292027867610200/?modal=admin_todo_tour"><i class="fa fa-lg fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/passport_to_my_kitchen/?hl=en"><i class="fa fa-lg fa-instagram"></i></a></li>
+                  <li><a href="mailto:passporttomykitchen@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+              </ul>
+          </div>
+    </nav>
+
+    <!-- header -->
+    	<div class="jumbotron-header">
+      <!-- <img src="cookingpot.jpg" width="200px"> -->
+    	<!-- <div class="transbox-header">
+    	</div> -->
+    	</div>
+    					<!--Ingredients-->
+    					<div id="ingredients-section">
+    						<div class="container">
+    							<h3>Ingredients</h3>
+                  <p>250g / 8,8 oz of unsalted codfish</p>
+                  <p>200g / 7oz of potatoes</p>
+                  <p>½ onion</p>
+                  <p>1 table spoon of shredded parsley</p>
+                  <p>3 to 4 eggs</p>
+                  <p>1 small goblet of Port wine</p>
+                  <p>Salt & pepper</p>
+                  <p>Nutmeg</p>
+                  <p>Frying oil</p>
+                </div>
+    					</div>
+    					<!-- The team -->
+    					<!-- <div class="container">
+    						<div id="team-section">
+    							<h3>The Team</h3>
+    							<p>The four of us met at the Code First: Girls course and bonded over our shared passion for coding and food.</p>
+    							<br>
+    							<p>Our diverse origins, and the fact that we are all foodies, inspired us to create a place</p>
+    							<p>to share traditional recipes from our own home countries - and with time, the whole world!</p>
+    							<br>
+    							<p>Not only are we hoping to add more recipes as we travel to different countries,</p>
+    							<p>but also to build a food-loving community for others who want to share the food they grew up with. </p>
+    						</div>
+    					</div>
+    					<div id="profile-photos" <div="" class="container">
+    								<div class="col-sm-3" <h3="">Himalee
+    									<img src="images/himalee.jpg" alt="image of potatoes" class="img-responsive">
+    								</div>
+    								<div class="col-sm-3" <h3="">Aurelia
+    									<img src="images/aurelia.jpg" alt="image of potatoes" class="img-responsive">
+    								</div>
+    								<div class="col-sm-3" <h3="">Eleanor
+    									<img src="images/eleanor.jpg" alt="image of potatoes" class="img-responsive">
+    								</div>
+    								<div class="col-sm-3" <h3="">Oline
+    									<img src="images/Oline.jpg" alt="image of potatoes" class="img-responsive">
+    								</div>
+    							</div> -->
+
+
+
+    			<!-- Resources -->
+    			<div id="method-section" <div="" class="container">
+          		  <h3>Method</h3>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                      <img src="images/breakfast.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/breakfast.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fifth slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+    						<!-- Table -->
+    						<!-- <div class="table-responsive">
+    							<table class="table">
+    		  					<tbody>
+    		    					<tr>
+    		      						<th scope="row">British food</th>
+    		      						<td><a href="https://www.nigella.com">Nigella Lawson</a></td>
+    		      						<td><a href="https://www.bbcgoodfood.com">BBC Good Food</a></td>
+    		    					</tr>
+    								<tr>
+    		      						<th scope="row">Italian food</th>
+    									<td><a href="http://www.giallozafferano.it">Giallo Zafferano</a></td>
+    									<td><a href="https://www.lacucinaitaliana.it/ricette/">La Cucina Italiana</a></td>
+    		    					</tr>
+    								<tr>
+    		      						<th scope="row">Swiss food</th>
+    									<td><a href="https://www.bettybossi.ch/fr/Rezept/List">Betty Bossi</a></td>
+    									<td><a href="http://www.marmiton.org/recettes/selection_recettes_de_suisse.aspx">Marmiton</a></td>
+    		    					</tr>
+    								<tr>
+    		      						<th scope="row">Danish food</th>
+    		      						<td><a href="http://nordicfoodliving.com/recipes/">Nordic Food</a></td>
+    		      						<td><a href="https://www.karlasnordickitchen.com/category/recipes/">Karla's Nordic Kitchen</a></td>
+    		    					</tr>
+    									<tr>
+    			      						<th scope="row">Indian food</th>
+    			      						<td><a href="https://chetnamakan.co.uk/">Chetna Makan</a></td>
+    			      						<td><a href="http://www.mytamarindkitchen.com/">My Tamarind Kitchen</a></td>
+    			    					</tr>
+    			    					<tr>
+    		      							<th scope="row">Brazillian Food</th>
+    		      							<td><a href="http://www.oliviascuisine.com/authentic-brazilian-recipes/">Olivia's Cuisine</a></td>
+    		      							<td><a href="http://thelatinkitchen.com/r/origin/brazil-food-recipes">The Latin Kitchen</a></td>
+    		    						</tr>
+    		      						<tr><th scope="row"></th>
+    									<td></td>
+    									<td></td>
+    		  					</tr></tbody>
+    							</table>
+    						</div>
+    					</div> -->
+
+    						<br>
+
+    					<!-- Carousel -->
+    					<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
+    						<!-- Indicators -->
+    						<!-- <ol class="carousel-indicators">
+    							<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    							<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    							<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+    							<li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+    						</ol> -->
+
+    						<!-- Wrapper for slides -->
+    						<!-- <div class="carousel-inner" role="listbox">
+    							<div class="item">
+    								<img src="images/backgroundimages.jpg" alt="Map">
+    								<div class="carousel-caption">
+    									...
+    								</div>
+    							</div>
+    							<div class="item active">
+    								<img src="images/breakfast.jpg" alt="breakfast">
+    								<div class="carousel-caption">
+    									...
+    								</div>
+    							</div>
+    							<div class="item">
+    								<img src="images/street_food_asia.jpg" alt="China, street food">
+    								<div class="carousel-caption">
+    									...
+    								</div>
+    							</div>
+    							<div class="item">
+    								<img src="images/italian_pizza.jpg" alt="Italy, pizza">
+    								<div class="carousel-caption">
+    									...
+    								</div>
+    							</div>
+    							...
+    						</div> -->
+
+    						<!-- Controls -->
+    						<!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    							<span class="sr-only">Previous</span>
+    						</a>
+    						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    							<span class="sr-only">Next</span>
+    						</a>
+    					</div> -->
+
+          <!-- Lower carousel not needed -->
+                <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                      <img src="images/breakfast.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/breakfast.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/spices.png" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fifth slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div> -->
+
+    					<!-- Custom Google Form -->
+    					<br>
+    					<div class="row" style="padding:40px 250px 40px 250px;">
+    						<h3>Feedback, comments &amp; ideas welcome!</h3>
+    						<p>Please leave your contact details below to insert a message and we will get back to you as soon as possible</p>
+    		  				<br>
+    		  					<form action="https://docs.google.com/forms/d/e/1FAIpQLScUq0qzjzRwmiwfKbbggPRT-I--FvnoFDZmyZ51WJOsVTOa4g/formResponse" method="post" id="application-form" target="_blank">
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.2005620554" value="" class="form-control name" id="entry_2005620554" dir="auto" aria-label="Name  " aria-required="true" placeholder="Name">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.1045781291" value="" class="form-control email" id="entry_1045781291" dir="auto" aria-label="Email  " aria-required="true" placeholder="Email">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.1166974658" value="" class="form-control phone" id="entry_1166974658" dir="auto" aria-label="Phone Number  " aria-required="true" placeholder="Phone">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="col-md-12">
+    		      					<div class="form-group">
+    		        					<input type="submit" id="submit" class="btn btn-custom" name="submit" value="Submit To Insert Your Message">
+    		      					</div>
+    		    					</div>
+    								</form>
+    							</div>
+
+    				<script type="text/javascript" src="js/main.js"></script>
+
+        <footer class="container">
+              <p class="float-right"><a href="#">Back to top</a></p>
+      </footer>
+            </main>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    </body>
+</html>
