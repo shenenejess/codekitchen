@@ -369,5 +369,5 @@ p {
 	display: none;
 	}
 .Onion:hover a p.new-label:after{
-	content: '½ Onion';
+	content: '1/2 Onion';
 }
