@@ -261,7 +261,8 @@ p {
     position: relative;
     display: block;
     padding: 10px 15px;
-		color: #777
+		color: coral;
+		/* color: #777 */
 }
 
 button { width: 6em }
