@@ -7,7 +7,7 @@ body {
   height: 60px;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("backgroundimages.jpg");
+  background: url("int-cookbook-spoons.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,6 +16,7 @@ body {
 header {
   text-align: center;
   margin-top: 125px;
+  color: coral;
 }
 
 h1 {
@@ -27,17 +28,17 @@ h2 {
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: coral;
   border: 0;
   padding: 1.25rem 2rem;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #00000;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #00000;
   color: white;
 }
 
