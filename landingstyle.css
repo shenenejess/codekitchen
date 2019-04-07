@@ -279,14 +279,14 @@ p {
 }
 
 
-.Potatoes a p.new-label span{
+.Potato a p.new-label span{
 	position: relative;
 	content: 'NEW'
 }
-.Potatoes:hover a p.new-label span{
+.Potato:hover a p.new-label span{
 	display: none;
 }
-.Potatoes:hover a p.new-label:after{
+.Potato:hover a p.new-label:after{
 	content: '200g / 7oz of potatoes';
 }
 
@@ -366,5 +366,16 @@ p {
 	display: none;
 	}
 .Onion:hover a p.new-label:after{
+	content: '1/2 Onion';
+}
+
+.Codfish a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Codfish:hover a p.new-label span{
+	display: none;
+	}
+.Codfish:hover a p.new-label:after{
 	content: '1/2 Onion';
 }
