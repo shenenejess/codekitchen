@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Portugal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="landingstyle.css">
+	<!-- jQuery library -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled Bootstrap JavaScript -->
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	</head>
+
+    <body>
+
+      <!--Navbar with dropdown-->
+      <nav class="navbar navbar-default fixed-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> -->
+                <!-- menu items -->
+                <a class="navbar-brand" href="index.html"><img border="0" alt="home" src="images/logo.jpg" width="100" height="100"></a>
+                <a class="navbar-brand" href="#ingredients-section">Ingredients</a>
+                <a class="navbar-brand" href="#method-section">Method</a>
+                <a class="navbar-brand" href="all-recipes.html">All recipes</a>
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">Recipes by country<i class="fa fa-caret-down"></i>
+                  </button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">France</a>
+                    <a href="index.html">Spain</a>
+                    <a href="index.html">Germany</a>
+                    <a href="index.html">Portugal</a>
+                  </div>
+                </div>
+
+            </div>
+              <!-- social media icons -->
+              <ul class="nav navbar-nav navbar-right social">
+                  <li><a href="https://twitter.com/"><i class="fa fa-lg fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/"><i class="fa fa-lg fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/"><i class="fa fa-lg fa-instagram"></i></a></li>
+                  <li><a href="mailto:codekitchen@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+              </ul>
+          </div>
+    </nav>
+
+    <!-- header -->
+    	<div class="jumbotron-header">
+    	<!-- <div class="transbox-header">
+    	</div> -->
+    	</div>
+    					<!--Ingredients-->
+    					<div id="ingredients-section">
+    						<div class="container">
+    							<h3>Ingredients</h3>
+                  <p>250g / 8,8 oz of unsalted codfish</p>
+                  <p>200g / 7oz of potatoes</p>
+                  <p>½ onion</p>
+                  <p>1 table spoon of shredded parsley</p>
+                  <p>3 to 4 eggs</p>
+                  <p>1 small goblet of Port wine</p>
+                  <p>Salt & pepper</p>
+                  <p>Nutmeg</p>
+                  <p>Frying oil</p>
+                </div>
+    					</div>
+
+
+    			<!-- Method -->
+    			<div id="method-section" <div="" class="container">
+          		  <h3>Method</h3>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                      <img src="images/blacksquare.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Step 1</h3>
+                        <p>Boil the potatoes with the skin. When the potatoes are cooked, peel them and shred them until it becomes a puree.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/blacksquare.jpg" class="d-block w-100" alt="breakfast">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Step 2</h3>
+                        <p>Meanwhile, boil and drain the codfish. Take the skin and the bones out and then rub it in a clean and thick kitchen cloth until it becomes shredded (you can also do this using a fork if it is easier for you).</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/blacksquare.jpg" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Step 3</h3>
+                        <p>On a large bowl, place the potatoes puree, the codfish, the onion, the parsley, the Port wine and the spices. One by one incorporate the eggs, until you have consistent dough – it should not be too liquid as you will fry it afterwards.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/blacksquare.jpg" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3>Step 4</h3>
+                        <p>Use two tablespoons to shape it into a small cake with the dough approximately like the above picture. Fry it on a large pan, at high temperature, until it gets a wonderful golden color. Bom apetite!</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-interval="10000">
+                      <img src="images/blacksquare.jpg" class="d-block w-100" alt="spices">
+                      <div class="carousel-caption d-none d-md-block">
+                        <!-- <h3>Fifth slide label</h3> -->
+                        <p>Bom Apetit!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+
+    						<br>
+
+    					<!-- Custom Google Form -->
+    					<br>
+    					<div class="row" style="padding:40px 250px 40px 250px">
+              	<h3>Join Our Mailing List!</h3>
+    						<p>Please leave your contact details below to insert a message and we will get back to you as soon as possible</p>
+    		  				<br>
+    		  					<form action="https://docs.google.com/forms/" method="post" id="application-form" target="_blank">
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.2005620554" value="" class="form-control name" id="entry_2005620554" dir="auto" aria-label="Name  " aria-required="true" placeholder="Name">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.1045781291" value="" class="form-control email" id="entry_1045781291" dir="auto" aria-label="Email  " aria-required="true" placeholder="Email">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="row-form">
+    		      					<div class="col-md-12">
+    		        					<div class="form-group">
+    		          					<input type="text" name="entry.1166974658" value="" class="form-control comments" id="entry_1166974658" dir="auto" aria-label="Comments  " aria-required="true" placeholder="Comments">
+    		        					</div>
+    		      					</div>
+    		    					</div>
+    		    					<div class="col-md-12">
+    		      					<div class="form-group">
+    		        					<input type="submit" id="submit" class="button" name="submit" value="Submit">
+    		      					</div>
+    		    					</div>
+    								</form>
+    							</div>
+
+    				<script type="text/javascript" src="js/main.js"></script>
+    <!-- footer -->
+        <footer class="container">
+              <p class="float-right"><a href="#">Back to top</a></p>
+      </footer>
+            </main>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    </body>
+</html>
