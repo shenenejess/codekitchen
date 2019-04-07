@@ -45,7 +45,7 @@ body {
 }
 
 .row {
-	background-color: #f5f5dc;
+	background-color: coral;
 }
 
 h1 {
@@ -54,13 +54,23 @@ h1 {
 
 h2 {
 	font-size: 200%;
+	color: coral;
 }
 
 h3 {
 	font-weight: bold;
-	padding-top: 20px;
+	color: coral;
+	padding-top: 50px;
 	/* padding-right: 30px; */
-	padding-bottom: 50px;
+	padding-bottom: 30px;
+	/* padding-left: 80px; */
+}
+
+h4 {
+	font-weight: bold;
+	padding-top: 50px;
+	/* padding-right: 30px; */
+	padding-bottom: 30px;
 	/* padding-left: 80px; */
 }
 
@@ -71,7 +81,7 @@ p {
 .container {
 	padding-top: 20px;
 	padding-right: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 	padding-left: 80px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
@@ -251,7 +261,8 @@ p {
     position: relative;
     display: block;
     padding: 10px 15px;
-		color: #777
+		color: coral;
+		/* color: #777 */
 }
 
 button { width: 6em }
