@@ -11,6 +11,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  #logo {margin: 0 auto;}
 }
 
 header {
@@ -35,8 +36,9 @@ h2 {
 .btn-primary {
   background-color: #ff6c37;
   border: 0;
-  padding: 1.25rem 2rem;
+  padding: 0.5rem 2rem;
   margin-top: -80px;
+  font-size: 30px;
 }
 
 .btn-primary:hover {
