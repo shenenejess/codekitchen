@@ -254,7 +254,109 @@ p {
 		color: #777
 }
 
-button { width: 6em }
-button:hover span {display:none}
-button:before { width: 100px; content: ""; }
-button:hover:before {content: "½ Cebolla"}
+.container {
+	text-align: center;
+}
+
+
+.codfish a p.new-label span{
+	  position: absolute;
+	  content: 'NEW'
+}
+.codfish:hover a p.new-label span{
+	  display: none;
+	}
+.codfish:hover a p.new-label:after{
+    content: '250g / 8,8 oz of unsalted codfish';
+}
+
+
+.Potatoes a p.new-label span{
+	position: relative;
+	content: 'NEW'
+}
+.Potatoes:hover a p.new-label span{
+	display: none;
+}
+.Potatoes:hover a p.new-label:after{
+	content: '200g / 7oz of potatoes';
+}
+
+.Parsley a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Parsley:hover a p.new-label span{
+	display: none;
+	}
+.Parsley:hover a p.new-label:after{
+	content: '1 table spoon of shredded parsley';
+}
+
+
+.Egg a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Egg:hover a p.new-label span{
+	display: none;
+	}
+.Egg:hover a p.new-label:after{
+	content: '3 to 4 eggs';
+}
+
+
+.Wine a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Wine:hover a p.new-label span{
+	display: none;
+	}
+.Wine:hover a p.new-label:after{
+	content: '1 small goblet of Port wine';
+}
+
+.SP a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.SP:hover a p.new-label span{
+	display: none;
+	}
+.SP:hover a p.new-label:after{
+	content: 'Salt & pepper';
+}
+
+.Nut a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Nut:hover a p.new-label span{
+	display: none;
+	}
+.Nut:hover a p.new-label:after{
+	content: 'Nutmeg';
+}
+
+.oil a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.oil:hover a p.new-label span{
+	display: none;
+	}
+.oil:hover a p.new-label:after{
+	content: 'Frying oil';
+}
+
+.Onion a p.new-label span{
+	position: relative;
+	content: 'NEW'
+	}
+.Onion:hover a p.new-label span{
+	display: none;
+	}
+.Onion:hover a p.new-label:after{
+	content: '½ Onion';
+}
