@@ -72,43 +72,7 @@ main {
   text-align:center;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-}
-.social .fa-twitter:hover {
-    color: #00ABE3;
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-}
-
-.social .fa-facebook:hover {
-    color: #4060A5;
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-}
-
-.social .fa-envelope:hover {
-    color: #e64522;
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-}
-
-.social .fa-instagram:hover {
-    color: #bc2a8d
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-}
-
-.nav > li > a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    color: coral;
-		/* color: #e49d9f; */
-}
+.logo {
+  width: 250px;
+  height: 150px;
+  text-align: center;
