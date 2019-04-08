@@ -50,6 +50,10 @@ body {
 	background-color: #e49d9f;
 }
 
+#application-form {
+padding-left: 400px
+}
+
 h1 {
 	font-size: 80px;
 	font-family: 'Amatic SC', cursive;
@@ -87,7 +91,7 @@ h5 {
 	font-weight: bold;
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
-	padding-top: 50px;
+	padding-top: 30px;
 	/* padding-right: 30px; */
 	padding-bottom: 100px;
 	/* padding-left: 80px; */
@@ -100,10 +104,8 @@ h6 {
 	font-family: 'Amatic SC', cursive;
 	font-size: 60px;
 	padding-top: 10px;
-	/* padding-right: 30px; */
-	padding-bottom: 50px;
-	/* padding-left: 80px; */
-}
+	padding-bottom: 10px;
+	padding-left: 300px
 }
 
 p {
