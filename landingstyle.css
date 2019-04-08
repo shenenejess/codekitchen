@@ -154,97 +154,6 @@ p {
     color: #bc2a8d
 }
 
-/* Dropdown Button */
-.dropbtn {
-    background-color: white;
-    color: #777;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-		float: left;
-		height: 50px;
-		padding: 15px 15px;
-		font-size: 18px;
-		line-height: 20px;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #777;
-		color: #000;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-		overflow: auto;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-
-/* creating columns for image grid */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-.column img {
-    margin-top: 12px;
-    width: 100%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* HOVER OVER */
-.overlay {
- position: absolute;
- bottom: 0;
- left: 0;
- right: 0;
- background-color: #ffffff ;
-    opacity: .8;
- overflow: hidden;
- width: 100%;
- height: 0;
- transition: .5s ease;
-}
-
-.row:hover .overlay {
- height: 30%;
-}
-
 .navbar-brand {
 	font-family: 'Amatic SC', cursive;
 	font-size: 20px;
@@ -257,15 +166,8 @@ p {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 20px;
-}
-
-.button {
-		font-family: 'Quicksand', sans-serif;
-		font-size: 20px;
-		color: black;
-		background-color: white;
 }
 
 .nav > li > a {
