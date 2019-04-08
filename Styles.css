@@ -71,3 +71,8 @@ h2 {
 main {
   text-align:center;
 }
+
+.logo {
+  width: 250px;
+  height: 150px;
+  text-align: center;

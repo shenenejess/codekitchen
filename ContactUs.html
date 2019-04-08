@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title> TasteBuds </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Contactstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lora" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a href="index.html"><img class="navbar-brand js-scroll-trigger" src="Logo.jpg" alt="logo" width="110px"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="receipe.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#connect">Connect with us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="title">
+      <header>
+        <h1><strong> Connect with us! </strong></h1>
+        <h2> Send us your recipes or feeback ! </h2>
+      </header>
+    </div>
+    <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="language">language</label>
+    <select id="language" name="language" placeholder="language..">
+      <option value="australia">spanish</option>
+      <option value="canada">Italian</option>
+      <option value="usa">German</option>
+      <option value="usa">French</option>
+      <option value="usa">Mandarine</option>
+      <option value="usa">Vietnamese</option>
+    </select>
+
+    <label for="Recipes">Recipe</label>
+    <input type="text" id="recipe" placeholder="Your Recipe Name"
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
