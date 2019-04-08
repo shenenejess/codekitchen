@@ -71,3 +71,36 @@ h2 {
 main {
   text-align:center;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+}
+.social .fa-twitter:hover {
+    color: #00ABE3;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.social .fa-envelope:hover {
+    color: #e64522;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.social .fa-instagram:hover {
+    color: #bc2a8d
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
