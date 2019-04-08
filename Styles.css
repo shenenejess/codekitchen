@@ -22,7 +22,7 @@ header {
 h1 {
   font-size: 70px;
   background-color: #f5f5dc;
-  opacity: 0.8;
+  opacity: 0.9;
   font-weight: bolder;
 }
 
@@ -34,9 +34,8 @@ h2 {
   margin-top: -10px;
 }
 
-
 .btn-primary {
-  background-color: #fda47c;
+  background-color: #ff6c37;
   border: 0;
   padding: 0.5rem 2rem;
   margin-top: -80px;

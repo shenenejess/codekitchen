@@ -1,7 +1,7 @@
 body {
-	padding-top: 70px;
+	padding-top: 100px;
 	line-height: 150%;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 #carousel-example-generic img {
@@ -16,12 +16,14 @@ body {
 	padding-right: 30px;
 	padding-bottom: 250px;
 	padding-left: 80px;
-	background-image: url(images/bolinhos.jpg);
+	background-image: url(images/chorizo-croquettes.jpg);
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	transform: scale(0.9);
+	background-position: center center;
 }
 
 .transbox-header {
@@ -49,17 +51,23 @@ body {
 }
 
 h1 {
-	font-size: 400%;
+	font-size: 80px;
+	font-family: 'Amatic SC', cursive;
+	color: #de898b;
 }
 
 h2 {
 	font-size: 200%;
-	color: coral;
+	color: #de898b;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
 }
 
 h3 {
 	font-weight: bold;
-	color: coral;
+	font-size: 50px;
+	color: #ffffff;
+	font-family: 'Amatic SC', cursive;
 	padding-top: 50px;
 	/* padding-right: 30px; */
 	padding-bottom: 30px;
@@ -68,6 +76,8 @@ h3 {
 
 h4 {
 	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
 	padding-top: 50px;
 	/* padding-right: 30px; */
 	padding-bottom: 30px;
