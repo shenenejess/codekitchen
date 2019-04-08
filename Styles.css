@@ -11,7 +11,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  #logo {margin: 0 auto;}
 }
 
 header {
@@ -22,9 +21,10 @@ header {
 h1 {
   font-size: 70px;
   background-color: #f5f5dc;
-  opacity: 0.9;
+  opacity: 0.8;
   font-weight: bolder;
 }
+
 
 h2 {
   padding-bottom: 7rem;
@@ -33,12 +33,14 @@ h2 {
   margin-top: -10px;
 }
 
+
 .btn-primary {
-  background-color: #ff6c37;
+  background-color: #fda47c;
   border: 0;
   padding: 0.5rem 2rem;
   margin-top: -80px;
   font-size: 30px;
+  font-weight: 300;
 }
 
 .btn-primary:hover {

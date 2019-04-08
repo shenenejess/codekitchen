@@ -1,7 +1,7 @@
 body {
   color:#00000;
   font-family: 'Amatic SC', cursive;
-  font-size: 20px;
+  font-size: 40px;
   position: relative;
   width: 100%;
   height: 60px;
@@ -15,15 +15,16 @@ body {
 }
 
 header {
-  margin-top:5px;
+  margin-top: 40px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 125px;
   background-color: #f5f5dc;
+  padding-top: 0.5rem;
 }
 
 .card-body {
-  background-color:#E9CCB1;
+  background-color:#e9b1b2;
 }
 
 .card-body-france {
@@ -33,19 +34,58 @@ header {
 }
 
 .card-body-germany {
-  background-color: #EBCFC4;
+  background-color: #ebc5c4;
   flex: 1 1 auto;
   padding: 1.25rem;
 }
 
+h3 {
+ font-size: 35px;
+ font-weight: bolder;
+}
+
+p {
+  font-size: 25px;
+}
+
+.btn-primary-Spain {
+  font-size: 25px;
+  padding-bottom: 2rem 1rem;
+  margin-top: 20px;
+  Background-color: #ffffff;
+  margin-left: 90px;
+  color: #de898b;
+  font-weight: bolder;
+}
+
+.btn-primary-France {
+  font-size: 25px;
+  padding-bottom: 2rem 1rem;
+  margin-top: 20px;
+  margin-left: 140px;
+  background-color: #ffffff;
+  color: #d17b78;
+  font-weight: bolder;
+}
+
+.btn-primary-Germany {
+  font-size: 25px;
+  padding-bottom: 2rem 1rem;
+  margin-top: -90px;
+  Background-color: #ffffff;
+  margin-left: 150px;
+  color: #dea09e;
+  font-weight: bolder;
+}
+
 #mainNav {
-  min-height: 56px;
+  min-height: 60px;
   background-color: #fff;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
-  padding: 0.75rem;
+  padding: 2rem;
   color: #64a19d;
   border: 1px solid #64a19d;
 }
