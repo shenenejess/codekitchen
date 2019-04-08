@@ -257,15 +257,8 @@ p {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 20px;
-}
-
-.button {
-		font-family: 'Quicksand', sans-serif;
-		font-size: 20px;
-		color: black;
-		background-color: white;
 }
 
 .nav > li > a {
