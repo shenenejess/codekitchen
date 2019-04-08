@@ -330,7 +330,7 @@ p {
 	display: none;
 	}
 .Parsley:hover a p.new-label:after{
-	content: '1 table spoon of shredded parsley';
+	content: '1 table spoon of chopped parsley';
 }
 
 
@@ -365,7 +365,7 @@ p {
 	display: none;
 	}
 .SP:hover a p.new-label:after{
-	content: 'Salt & pepper';
+	content: 'Salt & Pepper';
 }
 
 .Nut a p.new-label span{
