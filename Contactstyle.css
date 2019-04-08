@@ -8,6 +8,7 @@ body {
   min-height: 35rem;
   padding: 5rem 0;
   background: url("Wallpaper2.jpg");
+  background-color: #ffffff;
   margin-top:auto;
   background-position: center;
   background-repeat:repeat;
@@ -59,8 +60,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a #d17b78 color */
-input[type=submit]:hover {
+input[type=submit] {
   background-color: #d17b78;
 }
 
