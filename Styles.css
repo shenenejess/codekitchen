@@ -104,3 +104,11 @@ main {
     font-size: 30px;
     width: 50px;
 }
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: coral;
+		/* color: #e49d9f; */
+}
